@@ -18,14 +18,12 @@ const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
 try {
-    mongoose.connect(URI, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-    });
+    mongoose.connect("mongodb+srv://msshahnwaz:Shah%40123@cluster0.kpklz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
     console.log("Connected to mongoDB");
 } catch (error) {
-    console.log("Error: ", error);
+    console.error("Error: ", error);
 }
+
 
 // defining routes
 app.use("/book", bookRoute);
