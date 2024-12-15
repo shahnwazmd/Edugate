@@ -50,4 +50,4 @@ A feature-rich and user-friendly bookstore webpage designed to offer a seamless 
 ## Contact
 
 - **Developer:** Md Shahnwaz
-- **Email:** [shahnwaz2125@gmail.com](mailto:shahnwaz2125@gmail.com)
+- **Email:** [msshahnwaz2003@gmail.com](mailto:shahnwaz2125@gmail.com)
