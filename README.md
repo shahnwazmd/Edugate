@@ -32,7 +32,7 @@ A feature-rich and user-friendly bookstore webpage designed to offer a seamless 
 
 - **Backend:**
   - Node.js (or specify if using another backend framework)
-  - Express.js
+ 
 
 - **Database:**
   - NOSQL (MONGODB)
