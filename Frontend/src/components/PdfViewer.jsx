@@ -3,8 +3,9 @@ import React from "react";
 const PdfViewer = () => {
   // Array of PDF links (modify these links as per your requirement)
   const pdfUrls = [
-    "https://drive.google.com/file/d/1WFrpXNjHxX_GSnRKcSp3lk78zGBT784B/preview",
-    "https://drive.google.com/file/d/11Heh4zHsLLrf80lShmgRFoppbUNQU8nN/preview"
+    "https://drive.google.com/file/d/1pJrN7sfSw7fb1JKtUjgKWlhjxJ2glB4X/preview",
+    "https://drive.google.com/file/d/1Mx_jQMPS6kolQbRJwJGevRm9GzEdP9hf/preview",
+    "https://drive.google.com/file/d/1XwUGK59cKw9Zx_JQHQsrjazG71LyUu5_/preview"
   ];
 
   return (
