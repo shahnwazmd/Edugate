@@ -14,7 +14,7 @@ function Freebook() {
       try {
         const res = await axios.get("http://localhost:4001/book");
 
-        const data = res.data;
+        const data = res.data.filter(k=>k.categories[0] !== "Java" && k.categories[0] !== "Web Development");
         console.log(data);
         setBook(data);
       } catch (error) {
@@ -64,9 +64,7 @@ function Freebook() {
         <div>
           <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
+              free books of internet and web
           </p>
         </div>
 
