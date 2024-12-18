@@ -4,7 +4,7 @@ const PdfViewer = () => {
   // Array of PDF links (modify these links as per your requirement)
   const pdfUrls = [
     "https://drive.google.com/file/d/1WFrpXNjHxX_GSnRKcSp3lk78zGBT784B/preview",
-    "https://drive.google.com/file/d/11Heh4zHsLLrf80lShmgRFoppbUNQU8nN/preview
+    "https://drive.google.com/file/d/11Heh4zHsLLrf80lShmgRFoppbUNQU8nN/preview"
   ];
 
   return (
