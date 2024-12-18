@@ -7,7 +7,7 @@ function Course() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/book");
+        const res = await axios.get("https://bookstore-8mmv.onrender.com/book");
         setBook(res.data.filter(k=>k.categories[0] === "Java" || k.categories[0] === "Web Development"));
       } catch (error) {
         console.log(error);
