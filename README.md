@@ -1,4 +1,4 @@
-# Bookstore Webpage
+# Edugate Webpage
 
 A feature-rich and user-friendly bookstore webpage designed to offer a seamless browsing and shopping experience for book enthusiasts. The project includes functionalities for book exploration, purchasing, and secure payment integration.
 
